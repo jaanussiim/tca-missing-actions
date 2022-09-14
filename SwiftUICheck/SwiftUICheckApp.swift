@@ -119,21 +119,3 @@ public struct TimeEntriesView: View {
         }
     }
 }
-
-public struct ApplicationView: View {
-    internal let store: StoreOf<Application>
-    
-    public var body: some View {
-        WithViewStore(store) {
-            viewStore in
-            
-            TabView {
-                TimeEntriesView(store: store.scope(state: \.timeEntriesState, action: Application.Action.timeEntries))
-                    .tabItem {
-                        Label("Time entries", systemImage: "rectangle.stack")
-                    }
-            }
-        }
-    }
-}
-
