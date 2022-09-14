@@ -16,6 +16,13 @@
 		EA8F12DF28C4CCD00072FBC2 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = EA8F12DE28C4CCD00072FBC2 /* ComposableArchitecture */; };
 		EA8F12E128C4CCD00072FBC2 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = EA8F12E028C4CCD00072FBC2 /* Dependencies */; };
 		EA8F12E628C4D1E30072FBC2 /* XCTestDynamicOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = EA8F12E528C4D1E30072FBC2 /* XCTestDynamicOverlay */; };
+		EAA1CC0728D1F3F800FFDB10 /* SwiftUICheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1CC0628D1F3F800FFDB10 /* SwiftUICheckApp.swift */; };
+		EAA1CC0928D1F3F800FFDB10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1CC0828D1F3F800FFDB10 /* ContentView.swift */; };
+		EAA1CC0B28D1F3F800FFDB10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA1CC0A28D1F3F800FFDB10 /* Assets.xcassets */; };
+		EAA1CC0E28D1F3F800FFDB10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA1CC0D28D1F3F800FFDB10 /* Preview Assets.xcassets */; };
+		EAA1CC1428D1F40E00FFDB10 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = EAA1CC1328D1F40E00FFDB10 /* ComposableArchitecture */; };
+		EAA1CC1628D1F40E00FFDB10 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = EAA1CC1528D1F40E00FFDB10 /* Dependencies */; };
+		EAA1CC1828D1F40E00FFDB10 /* XCTestDynamicOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = EAA1CC1728D1F40E00FFDB10 /* XCTestDynamicOverlay */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +34,11 @@
 		EA8F12D228C4CC7F0072FBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA8F12D528C4CC7F0072FBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA8F12D728C4CC7F0072FBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA1CC0428D1F3F800FFDB10 /* SwiftUICheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA1CC0628D1F3F800FFDB10 /* SwiftUICheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICheckApp.swift; sourceTree = "<group>"; };
+		EAA1CC0828D1F3F800FFDB10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAA1CC0A28D1F3F800FFDB10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA1CC0D28D1F3F800FFDB10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAA1CC0128D1F3F800FFDB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1CC1428D1F40E00FFDB10 /* ComposableArchitecture in Frameworks */,
+				EAA1CC1828D1F40E00FFDB10 /* XCTestDynamicOverlay in Frameworks */,
+				EAA1CC1628D1F40E00FFDB10 /* Dependencies in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,7 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				EA8F12C828C4CC7E0072FBC2 /* TCACheck */,
+				EAA1CC0528D1F3F800FFDB10 /* SwiftUICheck */,
 				EA8F12C728C4CC7E0072FBC2 /* Products */,
+				EAA1CC1228D1F40E00FFDB10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				EA8F12C628C4CC7E0072FBC2 /* TCACheck.app */,
+				EAA1CC0428D1F3F800FFDB10 /* SwiftUICheck.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +96,32 @@
 				EA8F12D728C4CC7F0072FBC2 /* Info.plist */,
 			);
 			path = TCACheck;
+			sourceTree = "<group>";
+		};
+		EAA1CC0528D1F3F800FFDB10 /* SwiftUICheck */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1CC0628D1F3F800FFDB10 /* SwiftUICheckApp.swift */,
+				EAA1CC0828D1F3F800FFDB10 /* ContentView.swift */,
+				EAA1CC0A28D1F3F800FFDB10 /* Assets.xcassets */,
+				EAA1CC0C28D1F3F800FFDB10 /* Preview Content */,
+			);
+			path = SwiftUICheck;
+			sourceTree = "<group>";
+		};
+		EAA1CC0C28D1F3F800FFDB10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1CC0D28D1F3F800FFDB10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAA1CC1228D1F40E00FFDB10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +149,28 @@
 			productReference = EA8F12C628C4CC7E0072FBC2 /* TCACheck.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EAA1CC0328D1F3F800FFDB10 /* SwiftUICheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA1CC1128D1F3F800FFDB10 /* Build configuration list for PBXNativeTarget "SwiftUICheck" */;
+			buildPhases = (
+				EAA1CC0028D1F3F800FFDB10 /* Sources */,
+				EAA1CC0128D1F3F800FFDB10 /* Frameworks */,
+				EAA1CC0228D1F3F800FFDB10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUICheck;
+			packageProductDependencies = (
+				EAA1CC1328D1F40E00FFDB10 /* ComposableArchitecture */,
+				EAA1CC1528D1F40E00FFDB10 /* Dependencies */,
+				EAA1CC1728D1F40E00FFDB10 /* XCTestDynamicOverlay */,
+			);
+			productName = SwiftUICheck;
+			productReference = EAA1CC0428D1F3F800FFDB10 /* SwiftUICheck.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +182,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					EA8F12C528C4CC7E0072FBC2 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					EAA1CC0328D1F3F800FFDB10 = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -131,6 +207,7 @@
 			projectRoot = "";
 			targets = (
 				EA8F12C528C4CC7E0072FBC2 /* TCACheck */,
+				EAA1CC0328D1F3F800FFDB10 /* SwiftUICheck */,
 			);
 		};
 /* End PBXProject section */
@@ -146,6 +223,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAA1CC0228D1F3F800FFDB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1CC0E28D1F3F800FFDB10 /* Preview Assets.xcassets in Resources */,
+				EAA1CC0B28D1F3F800FFDB10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -156,6 +242,15 @@
 				EA8F12CE28C4CC7E0072FBC2 /* ViewController.swift in Sources */,
 				EA8F12CA28C4CC7E0072FBC2 /* AppDelegate.swift in Sources */,
 				EA8F12CC28C4CC7E0072FBC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA1CC0028D1F3F800FFDB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1CC0928D1F3F800FFDB10 /* ContentView.swift in Sources */,
+				EAA1CC0728D1F3F800FFDB10 /* SwiftUICheckApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +446,66 @@
 			};
 			name = Release;
 		};
+		EAA1CC0F28D1F3F800FFDB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICheck/Preview Content\"";
+				DEVELOPMENT_TEAM = 5T8DRBFCBP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coodly.tca.SwiftUICheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA1CC1028D1F3F800FFDB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICheck/Preview Content\"";
+				DEVELOPMENT_TEAM = 5T8DRBFCBP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coodly.tca.SwiftUICheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -368,6 +523,15 @@
 			buildConfigurations = (
 				EA8F12DB28C4CC7F0072FBC2 /* Debug */,
 				EA8F12DC28C4CC7F0072FBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA1CC1128D1F3F800FFDB10 /* Build configuration list for PBXNativeTarget "SwiftUICheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA1CC0F28D1F3F800FFDB10 /* Debug */,
+				EAA1CC1028D1F3F800FFDB10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -405,6 +569,21 @@
 			productName = Dependencies;
 		};
 		EA8F12E528C4D1E30072FBC2 /* XCTestDynamicOverlay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA8F12E428C4D1E30072FBC2 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */;
+			productName = XCTestDynamicOverlay;
+		};
+		EAA1CC1328D1F40E00FFDB10 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA8F12DD28C4CCD00072FBC2 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		EAA1CC1528D1F40E00FFDB10 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA8F12DD28C4CCD00072FBC2 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+		EAA1CC1728D1F40E00FFDB10 /* XCTestDynamicOverlay */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = EA8F12E428C4D1E30072FBC2 /* XCRemoteSwiftPackageReference "xctest-dynamic-overlay" */;
 			productName = XCTestDynamicOverlay;
